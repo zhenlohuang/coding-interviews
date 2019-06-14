@@ -13,7 +13,7 @@ public class IsPopOrder {
 
         while(pushAIndex < pushA.length && popAIndex < popA.length) {
             stack.push(pushA[pushAIndex++]);
-            if(stack.peek() == popA[popAIndex]) {
+            while(!stack.isEmpty() && stack.peek() == popA[popAIndex]) {
                 popAIndex++;
                 stack.pop();
             }
