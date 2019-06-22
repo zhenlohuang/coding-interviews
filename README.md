@@ -37,7 +37,7 @@
 |二叉树中和为某一值的路径||
 |复杂链表的复制||
 |二叉搜索树与双向链表|426 Convert Binary Search Tree to Sorted Doubly Linked List|
-|字符串的排列||
+|字符串的排列|46. Permutations|
 |数组中出现次数超过一半的数字||
 |最小的K个数||
 |连续子数组的最大和||
